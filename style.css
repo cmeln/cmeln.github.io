@@ -37,8 +37,18 @@
     padding-top: 0;
     margin-right: 4rem;
     margin-left: 4rem;
-    background-color: #808080;
+    background-color: #cecece;
 }
+
+#intro:before {
+    content:"";
+    background-color:#cecece;
+    position: absolute;
+    height: 100%;
+    width: 200vw;
+    left: -100vw;
+    z-index: -1;
+  }
 
 #contact {
     padding-bottom: 2rem;
