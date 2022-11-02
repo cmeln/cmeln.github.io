@@ -37,17 +37,11 @@
     padding-top: 0;
     margin-right: 4rem;
     margin-left: 4rem;
-    background-color: #cecece;
 }
 
-#intro:before {
-    content:"";
+div.jumbotron {
     background-color:#cecece;
-    position: absolute;
-    height: 100%;
-    width: 200vw;
-    left: -100vw;
-    z-index: -1;
+    margin:0 -4rem; 
   }
 
 #contact {
