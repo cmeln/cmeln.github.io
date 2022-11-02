@@ -26,13 +26,20 @@
     color: white;
 }
 
-/* spacing on all sections */
-#intro, #about, #services, #portfolio, #contact {
-    margin-top: 4rem;
-    padding-top: 4rem;
+/* spacing on all sections but intro */
+#about, #services, #portfolio, #contact {
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
+
+#intro {
+    margin-top: 8px;
+    padding-top: 8px;
+    margin-right: 2rem;
+    margin-left: 2rem;
 }
 #contact {
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
 }
 /* about section image css */
 .imageAboutPage {
