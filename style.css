@@ -29,15 +29,17 @@
 /* spacing on all sections but intro */
 #about, #services, #portfolio, #contact {
     margin-top: 8px;
-    padding-top: 8px;
+    padding-top: 0px;
 }
 
 #intro {
     margin-top: 8px;
-    padding-top: 8px;
-    margin-right: 3rem;
-    margin-left: 3rem;
+    padding-top: 0;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    background-color: #808080;
 }
+
 #contact {
     padding-bottom: 2rem;
 }
